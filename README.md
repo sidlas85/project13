@@ -2,7 +2,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+<img width="764" alt="projecct 13 1 png" src="https://user-images.githubusercontent.com/101371476/157897982-d2fd8595-b872-4824-94f8-eb4ffdfd951d.PNG">
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -64,7 +65,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes/No              | 40.122.157.209       |
 | Web1     |  No                 |                      |
 | Web2     |  No                 |                      |
-| elk      |  yes                | 20.231.1.149         |
+| elk      |  NO                 | 20.231.1.149         |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
@@ -80,7 +81,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+<img width="959" alt="docker ps png" src="https://user-images.githubusercontent.com/101371476/157898346-63987c55-6eb9-4224-9d17-01ad2f36c61e.PNG">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
